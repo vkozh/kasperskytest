@@ -1,0 +1,14 @@
+.currency {
+  font-family: "Kaspersky Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #1d1d1b;
+  display: flex;
+  min-width: 70px;
+  min-height: 38px;
+  border-radius: 0;
+  border: 0;
+  padding: 0 4px;
+}

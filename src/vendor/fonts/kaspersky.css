@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Kaspersky Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Kaspersky Sans Regular.woff2") format("woff2"),
+    url("Kaspersky Sans Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kaspersky Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Kaspersky Light.woff2") format("woff2"),
+    url("Kaspersky Light.woff") format("woff");
+}

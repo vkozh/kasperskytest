@@ -1,0 +1,8 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/kaspersky.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-img/header__logo-img.css);
+
+@import url(../blocks/currency/currency.css);
+@import url(../blocks/currency/__item/currency__item.css);
