@@ -1,6 +1,7 @@
 # Test project for Kaspersky
 by Kozhevnikova Valeria
 
+Repo: https://github.com/vkozh/kasperskytest/
 ## Features:
 - Selecting currencies
 - Custom select element
