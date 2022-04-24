@@ -15,3 +15,12 @@
   src: url("Kaspersky Light.woff2") format("woff2"),
     url("Kaspersky Light.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Kaspersky Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Kaspersky Bold.woff2") format("woff2"),
+    url("Kaspersky Bold.woff") format("woff");
+}
