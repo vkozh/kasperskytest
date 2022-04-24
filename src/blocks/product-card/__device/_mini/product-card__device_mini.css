@@ -1,0 +1,14 @@
+.product-card__device_mini {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #1D1D1B;
+    display: none;
+    margin: 0 0 3px 3px;
+}
+
+.buy-block_mini .product-card__device_mini {
+    display: block;
+}

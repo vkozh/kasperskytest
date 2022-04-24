@@ -1,0 +1,17 @@
+.product-card__reviews {
+    font-family: "Kaspersky Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #1d1d1b;
+    margin: 0;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.product-card__reviews:hover {
+    opacity: .8;
+}

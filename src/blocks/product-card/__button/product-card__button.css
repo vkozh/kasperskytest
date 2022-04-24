@@ -1,0 +1,26 @@
+.product-card__button {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #FF3748;
+    min-width: 118px;
+    min-height: 48px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-card__button:hover {
+    box-shadow: 0 0 4px #086252;
+}
+
+.buy-block_mini .product-card__button {
+    min-width: 78px;
+    width: min-content;
+    order: 2
+}

@@ -1,0 +1,33 @@
+.product-card__discont {
+    position: absolute;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 179px;
+    top: -59px;
+    left: 0;
+    right: 0;
+    background-color: #8233ff;
+    font-family: "Kaspersky Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #fff;
+}
+
+.buy-block_mini .product-card__discont {
+    display: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .product-card__discont {
+        top: -36px;
+        max-width: 179px;
+        left: 0;
+        font-size: 16px;
+        height: 36px;
+        line-height: 1;
+    }
+}

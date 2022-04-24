@@ -1,0 +1,13 @@
+.product-card__about {
+    margin-left: 32px;
+}
+
+.buy-block_mini .product-card__about {
+    margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .product-card__about {
+        margin-left: 24px;
+    }
+}

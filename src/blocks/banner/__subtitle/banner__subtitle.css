@@ -1,0 +1,30 @@
+.banner__subtitle {
+    font-family: "Kaspersky Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.1;
+    color: #fff;
+    opacity: 0.8;
+    margin: 7px 0 47px;
+}
+
+.banner__subtitle_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__subtitle {
+        display: none;
+    }
+    .banner__subtitle_mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .banner__subtitle {
+        font-size: 24px;
+        margin: 14px 0 20px;
+    }
+}

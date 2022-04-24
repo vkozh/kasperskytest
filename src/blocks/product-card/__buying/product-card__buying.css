@@ -1,0 +1,24 @@
+.product-card__buying {
+    display: flex;
+}
+
+.buy-block_mini .product-card__buying {
+    margin: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media screen and (max-width: 1439px) {
+    .product-card__buying {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-card__buying {
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.product-card__info {
+    display: flex;
+    align-items: center;
+    flex-basis: 460px;
+}
+
+.buy-block_mini .product-card__info {
+    margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .product-card__info {
+        flex-basis: auto;
+        margin-bottom: 20px;
+    }
+}

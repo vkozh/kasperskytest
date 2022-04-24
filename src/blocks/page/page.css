@@ -1,0 +1,5 @@
+.page {
+  background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1d1d1b 59.08%),
+    linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1d1d1b 100%),
+    linear-gradient(103.91deg, #23d1ae 0%, rgba(1, 50, 35, 0) 59.93%);
+}

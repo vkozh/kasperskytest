@@ -1,0 +1,18 @@
+.banner__title {
+    font-family: "Kaspersky Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.05;
+    color: #fff;
+    margin: 0 0 30px;
+    letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 960px) {
+    .banner__title {
+        font-size: 36px;
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+}

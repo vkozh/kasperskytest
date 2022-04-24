@@ -1,0 +1,18 @@
+.compatibility {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 0 10px 165px;
+}
+
+@media screen and (max-width: 768px) {
+    .compatibility {
+        margin: 0 0 43px 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .compatibility {
+        margin: 0 0 43px 58px;
+    }
+}

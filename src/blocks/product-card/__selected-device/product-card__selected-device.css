@@ -1,0 +1,25 @@
+.product-card__selected-device {
+    padding: 12px;
+    min-height: 46px;
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D1D1B;
+    max-width: 190px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    background-image: url(../../../images/arrow-down.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: right 13px center;
+}
+
+@media screen and (max-width: 768px) {
+    .product-card__selected-device {
+        max-width: 100%;
+    }
+}

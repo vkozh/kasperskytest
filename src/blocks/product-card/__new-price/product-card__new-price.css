@@ -1,0 +1,19 @@
+.product-card__new-price {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #1D1D1B;
+    margin: 0;
+}
+
+.buy-block_mini .product-card__new-price {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 1439px) {
+    .product-card__new-price {
+        font-size: 54px;
+    }
+}

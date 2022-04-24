@@ -1,0 +1,16 @@
+.compatibility__text {
+    font-family: "Kaspersky Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+    margin: 0 24px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .compatibility__text {
+        font-size: 12px;
+        margin: 0 24px 17px 0;
+    }
+}

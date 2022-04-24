@@ -1,0 +1,7 @@
+.product-card__rating {
+    display: flex;
+}
+
+.buy-block_mini .product-card__rating {
+    display: none;
+}

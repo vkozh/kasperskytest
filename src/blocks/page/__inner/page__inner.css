@@ -1,0 +1,13 @@
+.page__inner {
+    background-image: url(../../../images/background.png);
+    background-position: 100% top;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 524px) {
+    .page__inner {
+        background-image: url(../../../images/bg-mobile.png);
+        background-size: 525px;
+        background-position: top 0 right 82%;
+    }
+}

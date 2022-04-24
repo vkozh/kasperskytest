@@ -1,14 +1,5 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 165px;
-  height: 64px;
-  background: rgba(29, 29, 27, 0.4);
-}
-
-@media screen and (max-width: 960px) {
-  .header {
-    padding: 0 20px 0 24px;
-  }
+    background: rgba(29, 29, 27, 0.4);
+    position: static;
+    top: 0;
 }

@@ -1,0 +1,22 @@
+.product-card__old-price {
+    position: relative;
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #006D5C;
+    margin: 0 26px 0 0;
+}
+
+.product-card__old-price::before {
+    content: '';
+    border-bottom: 2px solid inherit;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+}
+
+.buy-block_mini .product-card__old-price {
+    display: none;
+}

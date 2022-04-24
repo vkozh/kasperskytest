@@ -1,0 +1,7 @@
+.product-card__inner-container-devices {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #15c1a1;
+    border-bottom: 2px solid #000;
+}

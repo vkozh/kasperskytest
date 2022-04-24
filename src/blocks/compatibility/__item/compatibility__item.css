@@ -1,0 +1,29 @@
+.compatibility__item {
+    padding: 0 15px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    border-left: rgba(102, 102, 102, 0.4) 1px solid;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.compatibility__item:first-of-type {
+    border: none;
+    margin-right: 19px;
+    padding: 0;
+}
+
+.compatibility__item:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+    .compatibility__item {
+        padding: 0 21px;
+    }
+    .compatibility__item:first-of-type {
+        padding: 0 0 0 6px;
+    }
+}

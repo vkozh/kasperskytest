@@ -1,0 +1,7 @@
+.product-card__cents {
+    font-size: .56em;
+}
+
+.buy-block_mini .product-card__cents {
+    font-size: 1em;
+}

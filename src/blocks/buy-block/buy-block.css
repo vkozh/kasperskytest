@@ -1,0 +1,10 @@
+.buy-block {
+    position: sticky;
+    margin: 0 135px;
+}
+
+@media screen and (max-width: 768px) {
+    .buy-block {
+        margin: 0 16px;
+    }
+}

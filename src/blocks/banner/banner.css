@@ -1,0 +1,9 @@
+.banner {
+    margin: 57px 0 57px 167px
+}
+
+@media screen and (max-width: 960px) {
+    .banner {
+        margin: 364px 24px 30px;
+    }
+}

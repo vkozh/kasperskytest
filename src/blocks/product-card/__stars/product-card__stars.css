@@ -1,0 +1,4 @@
+.product-card__stars {
+    display: flex;
+    margin-right: 8px;
+}

@@ -1,0 +1,17 @@
+.product-card__device {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1B;
+    min-height: 48px;
+    padding: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.product-card__device:hover {
+    background: #7FE3CE;
+}
