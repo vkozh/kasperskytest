@@ -11,6 +11,6 @@
 @media screen and (max-width: 768px) {
     .compatibility__text {
         font-size: 12px;
-        margin: 0 24px 17px 0;
+        margin: 0 24px 0 0;
     }
 }

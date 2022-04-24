@@ -2,4 +2,5 @@
     background: rgba(29, 29, 27, 0.4);
     position: static;
     top: 0;
+    z-index: 1;
 }
