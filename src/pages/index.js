@@ -88,6 +88,7 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('resize', handleScroll);
 consts.currency.addEventListener('change', handleChangeCurrency);
+consts.buyBlock.addEventListener('click', () => consts.buyBlock.classList.remove(consts.selectors.buyBlockMini))
 
 updateDevices();
 setPrice();
