@@ -21,6 +21,7 @@ export const selectors = {
 export const header = document.querySelector('.header');
 export const buyBlock = document.querySelector('.buy-block');
 export const currency = document.querySelector('.currency');
+export const deviceMini = document.querySelector('.product-card__device_mini');
 export const oldPrice = document.querySelector('.product-card__old-price');
 export const newPrice = document.querySelector('.product-card__new-price');
 export const devices = document.querySelector(`.${selectors.devices}`);

@@ -80,4 +80,9 @@ export default class Select {
     _toggle() {
         this._containerOptions.classList.toggle(selectors.optionsContainerHidden);
     }
+
+    getSelected() {
+        console.log(this._selectElement.textContent)
+        return this._selectElement.textContent;
+    }
 }

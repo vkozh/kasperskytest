@@ -1,8 +1,72 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/kaspersky.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__inner/page__inner.css);
+@import url(../blocks/main/main.css);
+
+/* header */
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_stick/header_stick.css);
+@import url(../blocks/header/__inner/header__inner.css);
 @import url(../blocks/header/__logo-img/header__logo-img.css);
-
 @import url(../blocks/currency/currency.css);
 @import url(../blocks/currency/__item/currency__item.css);
+
+/* banner */
+
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__text-wrapper/banner__text-wrapper.css);
+@import url(../blocks/banner/__line/banner__line.css);
+@import url(../blocks/banner/__title/banner__title.css);
+@import url(../blocks/banner/__subtitle/banner__subtitle.css);
+@import url(../blocks/banner/__options/banner__options.css);
+@import url(../blocks/banner/__options-item/banner__options-item.css);
+@import url(../blocks/banner/__options-item/_title/banner__options-item_title.css);
+
+/* Buy block */
+
+@import url(../blocks/buy-block/buy-block.css);
+@import url(../blocks/buy-block/_stick/buy-block_stickTop.css);
+@import url(../blocks/buy-block/_stick/buy-block_stickBottom.css);
+
+/* copability */
+
+@import url(../blocks/compatibility/compatibility.css);
+@import url(../blocks/compatibility/__text/compatibility__text.css);
+@import url(../blocks/compatibility/__items/compatibility__items.css);
+@import url(../blocks/compatibility/__item/compatibility__item.css);
+@import url(../blocks/compatibility/__item/_windows/compatibility__item_windows.css);
+@import url(../blocks/compatibility/__item/_macos/compatibility__item_macos.css);
+@import url(../blocks/compatibility/__item/_andriod/compatibility__item_andriod.css);
+@import url(../blocks/compatibility/__item/_ios/compatibility__item_ios.css);
+
+/* green product card */
+
+@import url(../blocks/product-card/product-card.css);
+@import url(../blocks/product-card/__discont/product-card__discont.css);
+@import url(../blocks/product-card/__logo/product-card__logo.css);
+@import url(../blocks/product-card/__info/product-card__info.css);
+@import url(../blocks/product-card/__about/product-card__about.css);
+@import url(../blocks/product-card/__name/product-card__name.css);
+@import url(../blocks/product-card/__rating/product-card__rating.css);
+@import url(../blocks/product-card/__stars/product-card__stars.css);
+@import url(../blocks/product-card/__star/product-card__star.css);
+@import url(../blocks/product-card/__half-star/product-card__half-star.css);
+@import url(../blocks/product-card/__reviews/product-card__reviews.css);
+@import url(../blocks/product-card/__prices/product-card__prices.css);
+@import url(../blocks/product-card/__old-price/product-card__old-price.css);
+@import url(../blocks/product-card/__new-price/product-card__new-price.css);
+@import url(../blocks/product-card/__cents/product-card__cents.css);
+@import url(../blocks/product-card/__device/_mini/product-card__device_mini.css);
+@import url(../blocks/product-card/__buying/product-card__buying.css);
+@import url(../blocks/product-card/__container-devices/product-card__container-devices.css);
+@import url(../blocks/product-card/__inner-container-devices/product-card__inner-container-devices.css);
+@import url(../blocks/product-card/__container-options/product-card__container-options.css);
+@import url(../blocks/product-card/__container-options/_hidden/product-card__container-options_hidden.css);
+@import url(../blocks/product-card/__devices/product-card__devices.css);
+@import url(../blocks/product-card/__selected-device/product-card__selected-device.css);
+@import url(../blocks/product-card/__device/product-card__device.css);
+@import url(../blocks/product-card/__device/_selected/product-card__device_selected.css);
+@import url(../blocks/product-card/__button/product-card__button.css);

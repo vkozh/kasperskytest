@@ -1,0 +1,25 @@
+[{
+    "device": "1 Device",
+    "year": "1 Year",
+    "price": 27.99
+}, {
+    "device": "1 Device",
+    "year": "2 Years",
+    "price": 43.99
+}, {
+    "device": "3 Devices",
+    "year": "1 Year",
+    "price": 35.99
+}, {
+    "device": "3 Devices",
+    "year": "2 Years",
+    "price": 63.99
+}, {
+    "device": "5 Devices",
+    "year": "1 Year",
+    "price": 43.99
+}, {
+    "device": "5 Devices",
+    "year": "2 Years",
+    "price": 71.99
+}]
