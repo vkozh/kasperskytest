@@ -6,6 +6,8 @@
     padding: 0 25px;
     border-right: 2px solid hsla(0, 0%, 100%, .2);
     border-left: 2px solid hsla(0, 0%, 100%, .2);
+    min-width: 300px;
+    box-sizing: border-box;
 }
 
 .buy-block_mini .product-card__prices {
@@ -13,6 +15,13 @@
     padding: 0;
     justify-content: start;
     order: 3;
+    min-width: auto;
+}
+
+@media screen and (max-width: 360px) {
+    .product-card__prices {
+        min-width: 256px;
+    }
 }
 
 @media screen and (max-width: 1439px) {
