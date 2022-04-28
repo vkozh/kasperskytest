@@ -1,8 +1,13 @@
 # Test project for Kaspersky
-by Kozhevnikova Valeria
+
+Test project for intern vacancy at Kaspersky by Kozhevnikova Valeria
+
+Project: https://vkozh.github.io/kasperskytest/
 
 Repo: https://github.com/vkozh/kasperskytest/
+
 ## Features:
+
 - Selecting currencies
 - Custom select element
 - Responsive layout
@@ -10,6 +15,7 @@ Repo: https://github.com/vkozh/kasperskytest/
 - Sticky/fixed buy-block
 
 ## Dev kit:
+
 - Figma template
 - Pixel Perfect check
 - BEM
@@ -20,4 +26,5 @@ Repo: https://github.com/vkozh/kasperskytest/
 - CSS
 
 ### Components:
+
 Custom select with class Select
